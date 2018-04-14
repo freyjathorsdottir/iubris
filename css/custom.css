@@ -23,6 +23,23 @@ body {
     padding: 10px 0;
 }
 
+.content-body table {
+    width: 100%;
+}
+
+.content-body td {
+    text-align: center;
+    width: 33%;
+    padding: 15px;
+}
+
+img.icon-sm {
+    border-radius: 50%;
+    width: 100px;
+    border: 1px solid #59C8E2;
+    margin-bottom: 0px;
+}
+
 .nav-header {
     position: fixed;
     display: none;
@@ -101,6 +118,24 @@ img.icon {
     text-transform: uppercase !important;
 }
 
+.subject div {
+    margin-bottom: 35px;
+}
+
+a {
+    color: #F9C254;
+}
+
+a:hover {
+    color: #fbb31b;
+    text-decoration: none;
+}
+
+.left-par {
+    text-align: justify;
+}
+
+/*
 section.photos {
     position: relative;
     width: 140%;
@@ -117,14 +152,7 @@ section.photos .photos-section {
 section.photos .photos-section.full-deck {
     background: url(../img/cathedral.jpg) no-repeat center center;
     background-size: 100%;
-}
-
-section.photos .row {
-    background: #363F45;
-    width: 60%;
-    margin: 0 20%;
-    padding: 40px 80px 60px 80px;
-}
+}*/
 
 /*****************
     SCROLL BAR 
