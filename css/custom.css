@@ -1,0 +1,146 @@
+body {
+    background-color: #2F383C;
+    font-family: 'Catamaran';
+    color: white;
+}
+
+.content-body {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.content-body p {
+    font-size: 1.3em;
+    line-height: 1.8em;
+}
+
+.content-body section h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.content-body section p {
+    padding: 10px 0;
+}
+
+.nav-header {
+    position: fixed;
+    display: none;
+    top: 0;
+    background: #2f373c;
+    width: 100%;
+    z-index: 9999;
+    padding: 30px 60px;
+}
+
+.btn-info {
+    color: #59C8E2;
+    background-color: transparent;
+    border-color: #59C8E2;
+}
+
+.btn-info:hover {
+    color:#59C8E2;
+    background-color:transparent;
+    border-color:#26b6d8;
+}
+
+.btn-warning {
+    color: #FBB31B;
+    background-color: transparent;
+    border-color: #FBB31B;
+}
+
+.btn-warning:hover {
+    color:#FBB31B;
+    background-color:transparent;
+    border-color:#d59204;
+}
+
+img.icon {
+    border-radius: 50%;
+    width: 170px;
+    border: 1px solid #59C8E2;
+    margin-bottom: 30px;
+}
+
+#lead {
+    margin-bottom: 20px;
+    font-size: 12px !important;
+    letter-spacing: 2.5px;
+    text-transform: uppercase !important;
+    font-weight: bold;
+}
+
+.hero img {
+    width: 60px;
+    margin: 40px;
+}
+
+.hero h1 {
+    color: #FBB31B;
+    font-size: 4em;
+}
+
+.blue {
+    color: #59C8E2;
+}
+
+.dropdown-menu {
+    padding: 10px 0px 10px 10px;
+}
+
+.dropdown-item {
+    line-height: 2em;
+}
+
+.signature {
+    font-weight: bold;
+    font-size: 12px !important;
+    letter-spacing: 2.5px;
+    text-transform: uppercase !important;
+}
+
+section.photos {
+    position: relative;
+    width: 140%;
+    left: -20%;
+}
+
+section.photos .photos-section {
+    position: relative;
+    height: 100vh;
+    margin-bottom: -10vh;
+    z-index: -1;
+}
+
+section.photos .photos-section.full-deck {
+    background: url(../img/cathedral.jpg) no-repeat center center;
+    background-size: 100%;
+}
+
+section.photos .row {
+    background: #363F45;
+    width: 60%;
+    margin: 0 20%;
+    padding: 40px 80px 60px 80px;
+}
+
+/*****************
+    SCROLL BAR 
+*****************/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #F9C254; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fbb31b; 
+}
